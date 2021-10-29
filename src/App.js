@@ -1,17 +1,21 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
+import NavbarTop from './components/Navbar/Navbar';
 import History from './components/History/History';
+import MagicEightBall from './components/MagicBall/MagicBall';
 
 
 function App() {
   return (
     <Router>
-      <Navbar/>
+      <NavbarTop />
       <Switch>
-        <Route path ='/History'>
-        <History/>
+        <Route exact path='/'>
+          <MagicEightBall />
+        </Route>
+        <Route exact path='/history'>
+          <History />
         </Route>
       </Switch>
     </Router>
