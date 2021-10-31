@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Magic8BallV2/static/css/main.6c7e2d9b.chunk.css",
-    "main.js": "/Magic8BallV2/static/js/main.3904cbdf.chunk.js",
-    "main.js.map": "/Magic8BallV2/static/js/main.3904cbdf.chunk.js.map",
+    "main.js": "/Magic8BallV2/static/js/main.db57c4b9.chunk.js",
+    "main.js.map": "/Magic8BallV2/static/js/main.db57c4b9.chunk.js.map",
     "runtime-main.js": "/Magic8BallV2/static/js/runtime-main.fa49c8c9.js",
     "runtime-main.js.map": "/Magic8BallV2/static/js/runtime-main.fa49c8c9.js.map",
     "static/css/2.0a9ec390.chunk.css": "/Magic8BallV2/static/css/2.0a9ec390.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.58844af2.chunk.js",
     "static/css/main.6c7e2d9b.chunk.css",
-    "static/js/main.3904cbdf.chunk.js"
+    "static/js/main.db57c4b9.chunk.js"
   ]
 }
