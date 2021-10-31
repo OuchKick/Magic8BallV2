@@ -9,7 +9,7 @@ import MagicEightBall from './components/MagicBall/MagicBall';
 
 function App() {
   return (
-    <HashRouter basename="/Magic8BallV2">
+    <HashRouter basename="/">
     <div className="backgroundGradient">
     <Router>
       <NavbarTop />
