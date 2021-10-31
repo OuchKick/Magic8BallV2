@@ -9,6 +9,13 @@
     background-color: #25AAF2 !important;
 }
 
+.submitButton:focus {
+  transform: scale(1.03);
+  background-color: #25AAF2 !important;
+  animation: shake 1s cubic-bezier(.5,.1,.3,.8) both;
+}
+
+
 .historyButton:hover {
     transform: scale(1.02);
     background-color: #E05721 !important;
@@ -38,6 +45,7 @@
       }
 
 }
+
 
 @media only screen and (min-width: 320px) {
   .magicTitle {

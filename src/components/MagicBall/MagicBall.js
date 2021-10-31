@@ -20,6 +20,7 @@ function MagicEightBall() {
     // State for answers
     const [apiAnswer, setApiAnswer] = useState();
 
+
     // API
     let params = encodeURIComponent(question);
     let uri = "https://8ball.delegator.com/magic/JSON/" + params;
@@ -44,6 +45,10 @@ function MagicEightBall() {
           window.alert("That wasn't a question.")
         } 
       };
+
+      
+
+
 
 
     return(

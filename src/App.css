@@ -1,3 +1,28 @@
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #585858;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #f25f25;
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #25b8f2;
+  
+}
+
+
+
+
 .backgroundGradient {
   position: absolute;
 	background: linear-gradient(-45deg, #f25f25, #25b8f2);
