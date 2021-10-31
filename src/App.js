@@ -8,6 +8,7 @@ import MagicEightBall from './components/MagicBall/MagicBall';
 
 function App() {
   return (
+    <div className="backgroundGradient">
     <Router>
       <NavbarTop />
       <Switch>
@@ -19,6 +20,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    </div>
   );
 }
 
