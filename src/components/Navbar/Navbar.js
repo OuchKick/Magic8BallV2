@@ -15,11 +15,11 @@ function NavbarTop() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <LinkContainer to='/'>
+                        <LinkContainer to='/Magic8BallV2/home'>
                         <Nav.Link>Home</Nav.Link>
                         </LinkContainer>
                         
-                        <LinkContainer to ='/history'>
+                        <LinkContainer to ='/Magic8BallV2/history'>
                         <Nav.Link>History</Nav.Link>
                         </LinkContainer>
                     </Nav>
