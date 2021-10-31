@@ -12,10 +12,10 @@ function App() {
     <Router>
       <NavbarTop />
       <Switch>
-        <Route exact path='/Magic8BallV2/home'>
+        <Route exact path='/'>
           <MagicEightBall />
         </Route>
-        <Route exact path='/Magic8BallV2/history'>
+        <Route exact path='/history'>
           <History />
         </Route>
       </Switch>
